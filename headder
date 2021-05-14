@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>headder</title>
+    <style>
+        *{
+  margin: 0;
+  padding: 0;
+  text-decoration:none;
+  list-style: none;
+}
+.headder{
+  width:100%;
+  background-color: #101010;
+  height: 80px;
+  display: block;
+}
+.in-headder{
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: none;
+}
+.logo-container{
+  height: 100%;
+  display: table;
+  float: left;
+}
+.logo-container h1{
+color: #8E8987;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 32px;
+  font-weight: 50;
+}
+.logo-container h1 span{
+  font-weight: 800;
+  color: white;
+}
+.navigation{
+  float: right;
+  height: 100%;
+}
+.navigation a{
+height: 100%;
+display: table;
+float: left;
+padding: 0px 20px;
+}
+.navigation a:last-child{
+  padding-right: 0;
+}
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-size: 16px; 
+}
+    </style>
+</head>
+<body>
+    <div class="headder">
+        <div class="in-headder">
+        <div class="logo-container">
+            <h1>MY<psan>SITE</psan></h1>
+        </div>
+        <ul class="navigation">
+
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Portfolio</li></a>
+            <a href=""><li>Contact</li></a>
+        </ul>
+        
+        </div>
+    </div>
+</body>
+</html>
